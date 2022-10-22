@@ -1,0 +1,5 @@
+*./cmake-build-debug
+*.iml
+*./.idea/modules.xml
+*./gradle.xml
+*./.idea/libraries/*.xml
