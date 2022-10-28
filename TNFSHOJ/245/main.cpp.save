@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a , ta , b , tb ;
+    cin >> a >> ta >> b >> tb ;
+    cout << a*ta + b*
+    return 0;
+}

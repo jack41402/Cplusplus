@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    int a , b , i , temp=0 , ans=0 ;
+    cin >> a >> b ;
+    int arr[a] ;
+    for (i=0 ; i<a ; ++i)
+    {
+        cin >> arr[i] ;
+        if (arr[i]>temp)
+        {
+            ans = temp ;
+            temp = arr[i] ;
+        }
+        else if (arr[i]!=temp && arr[i]>ans)
+        {
+            ans = arr[i] ;
+        }
+    }
+    cout << ans << endl ;
+    return 0;
+}

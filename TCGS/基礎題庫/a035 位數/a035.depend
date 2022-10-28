@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1567075700 source:c:\users\zhou\documents\c++\tcgs\a035\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+
+1567075835 source:c:\users\zhou\desktop\untitled1.cpp
+	<iostream>
+	<cmath>
+

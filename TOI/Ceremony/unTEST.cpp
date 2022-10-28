@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    int N , i , j ;
+    cin >> N ;
+    string id[N] , name[N] ;
+    for (i=0 ; i<N ; i++)
+    {
+        cin >> id[i] >> name[i] ;
+    }
+    for (i=N-1 ; i>0 ; --i)
+    {
+        for (j=0 ; j<i ; ++j)
+        {
+            if ((int)id[j][8]>(int)id[j+1][8])
+            {
+                swap(id[j] , id[j+1]) ;
+                swap(name[j] , name[j+1]) ;
+            }
+            if ((int)id[j][0]>(int)id[j+1][0] && id[j][8]==id[j+1][8])
+            {
+                swap(id[j] , id[j+1]) ;
+                swap(name[j] , name[j+1]) ;
+            }
+        }
+    }
+    for (i=0 ; i<N ; i++)
+    {
+        cout << id[i][8] << ": " << name[i] << endl ;
+    }
+    return 0;
+}

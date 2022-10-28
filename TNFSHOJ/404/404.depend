@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1576511773 source:f:\c++\tnfshoj\404\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

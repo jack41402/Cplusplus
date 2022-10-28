@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1578053776 source:f:\c++\tnfshoj\255\main.cpp
+	<iostream>
+	<string>
+

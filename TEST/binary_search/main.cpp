@@ -1,0 +1,38 @@
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+int N ;
+
+int binarysearch(int arr[] , int key , int left , int right)
+{
+    int mid=(left+right)/2 ;
+    if (key<arr[mid])
+    {
+        binarysearch(arr[] , key , left , mid-1 ) ;
+    }
+    else if (key>arr[mid])
+    {
+        binarysearch(arr[] , key , mid+1 , right) ;
+    }
+    else if (key==arr[mid])
+    {
+        return mid;
+    }
+}
+int main()
+{
+    int i , key , ans ;
+    cin >> N ;
+    int arr[N] ;
+    for (i=0 ; i<N ; i++)
+    {
+        cin >> arr[i] ;
+    }
+    sort (arr , arr+N);
+    cin >> key ;
+    ans = binarysearch(arr[N] , key , 0 , N-1 ) ;
+    cout << ans << endl ;
+    return 0;
+}

@@ -1,0 +1,12 @@
+#include <iostream>
+#include "interactive.h"
+
+using namespace std;
+
+void Init();
+
+int main()
+{
+    get
+    return 0;
+}

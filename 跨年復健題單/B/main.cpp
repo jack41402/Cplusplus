@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int N , a , b , n , s , i ;
+    cin >> N ;
+    for (i=1 ; i<=N ; i++)
+    {
+        cin >> a >> b >> n >> s ;
+        if (s/n<=a && s%n<=b)
+        {
+            cout << "YES" << endl ;
+        }
+        else if (s/n>a)
+        {
+            if (s-a*n<=b)
+            {
+                cout << "YES" << endl ;
+            }
+            else
+            {
+                cout << "NO" << endl ;
+            }
+        }
+        else
+        {
+            cout << "NO" << endl ;
+        }
+    }
+    return 0;
+}

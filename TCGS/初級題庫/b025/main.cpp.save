@@ -1,0 +1,27 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    int x , y , i , j ;
+    long long int line ;
+    cin >> x >> y ;
+    long long int graph[x+1][y+1] ;
+    for (i=0 ; i<x+1 ; i++)
+    {
+        graph[i][0] = 1
+    }
+    for (i=1 ; i<x+1 ; ++i)
+    {
+        for (j=1 ; j<y+1 ; ++j)
+        {
+            graph[i][j] = graph[i-1][j] + graph[i][j-1] ;
+            cout << graph[i][j] << endl ;
+        }
+    }
+    line = graph[x][y] ;
+    cout << line << endl ;
+    return 0;
+}

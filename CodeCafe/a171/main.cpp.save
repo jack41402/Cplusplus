@@ -1,0 +1,55 @@
+#include<bits/stdc++.h>
+#define endl '\n'
+
+using namespace std;
+
+int main()
+{
+	int T ;
+	cin >> T ;
+	string a ;
+	while(T--)
+    {
+		a = "" ;
+		cin >> a ;
+		string temp=a ;
+		sort (temp.begin() , temp.end()) ;
+		int n = a.length() ;
+		vector<pair<int,int>> step ;
+		for(i=0 ; i<n ; i++)
+        {
+			for(j=i ; j<n-2 ; j++)
+			{
+				if(a[j]>a[j+2])
+				{
+					swap(a[j],a[j+2]) ;
+					step.push_back({j+1,j+2+1}) ;
+				}
+			}
+		}
+		for(i=n-1 ; i>=0 ; i--)
+        {
+			for(j=i ; j>=2 ; j--)
+            {
+				if(a[j]<a[j-2])
+				{
+					swap(a[j],a[j-2]) ;
+					step.push_back({j+1,j-2+1}) ;
+				}
+			}
+		}
+		if(a==temp)
+        {
+			cout << "YES" << endl ;
+			cout << step.size() << endl ;
+			for(i=0 ; i<step.size() ; i++)
+            {
+				cout << step[i].first << " " << step[i].second << endl ;
+			}
+		}
+		else
+		{
+			cout << "NO" << endl ;
+		}
+	}
+}

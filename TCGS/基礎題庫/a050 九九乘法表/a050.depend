@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1567799664 source:c:\users\zhou\documents\c++\tcgs\a050\main.cpp
+	<iostream>
+	<iomanip>
+

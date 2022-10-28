@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x[9] , i , ans ;
+    for (i=0 ; i<9 ; i++)
+    {
+        cin >> x[i] ;
+    }
+    ans = (x[1] + x[2]) - (x[6] + x[7]) ;
+    cout << endl << "4 " << ans << endl ;
+    return 0;
+}

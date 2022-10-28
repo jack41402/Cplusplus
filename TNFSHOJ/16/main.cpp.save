@@ -1,0 +1,49 @@
+#include <iostream>
+#include <vector>
+#define endl "\n"
+
+using namespace std;
+
+int main()
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    int T , S , Q , W , i , j , k ;
+    vector<bool> quest(30000) ;
+    cin >> T ;
+    for (i=1 ; i<=T ; ++i)
+    {
+        
+        cin >> S ;
+        int stu[S] ;
+        for (j=0 ; j<S ; ++j)
+        {
+            cin >> stu[j] ;
+        }
+        for (j=0 ; j<S ; ++j)
+        {
+            for (k=0 ; k<S ; ++k)
+            {
+                if (stu[j]==0 || stu[k]==0 || j==k)
+                {
+                    continue ;
+                }
+                quest[stu[j]+stu[k]-1] = 1 ;
+            }
+        }
+        cin >> Q ;
+        for (j=0 ; j<Q ; ++j)
+        {
+            cin >> W ;
+            if (quest[W]==1)
+            {
+                cout << "Good!" << endl ;
+            }
+            else
+            {
+                cout << "So Bad!" << endl ;
+            }
+        }
+    }
+    return 0;
+}

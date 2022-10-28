@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="false">
+    <generated>
+      <config projectName="TNFSHOJ" targetName="TNFSHOJ" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d77aba0e-03c0-4056-9203-e03c02485fba" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1WTtZDTm2BzpNXgERGXtF2pasrO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3 GCD/3.cpp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunManager" selected="CMake Application.TNFSHOJ">
+    <configuration name="TNFSHOJ" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TNFSHOJ" TARGET_NAME="TNFSHOJ" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TNFSHOJ" RUN_TARGET_NAME="TNFSHOJ">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" WORKING_DIR="file://$PROJECT_DIR$/.." PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/3 GCD/3.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.TNFSHOJ" />
+      <item itemvalue="CMake Application.Unnamed" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d77aba0e-03c0-4056-9203-e03c02485fba" name="Default Changelist" comment="" />
+      <created>1579185465839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579185465839</updated>
+      <workItem from="1579185468368" duration="203000" />
+      <workItem from="1579185673152" duration="3699000" />
+      <workItem from="1579239289911" duration="600000" />
+      <workItem from="1579239946253" duration="1985000" />
+      <workItem from="1579243724104" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="142" y="49" width="1038" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579240941981">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="142" y="49" width="1038" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1579240941981" />
+    <state x="866" y="263" key="#com.intellij.tools.ToolEditorDialog" timestamp="1579213999630">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="866" y="263" key="#com.intellij.tools.ToolEditorDialog/0.0.1600.860@0.0.1600.860" timestamp="1579213999630" />
+    <state x="672" y="152" key="EnvironmentVariablesDialog" timestamp="1579213281340">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="672" y="152" key="EnvironmentVariablesDialog/0.0.1600.860@0.0.1600.860" timestamp="1579213281340" />
+    <state x="980" y="189" key="FileChooserDialogImpl" timestamp="1579243761174">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="980" y="189" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1579243761174" />
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1579243774342">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel/0.0.1600.860@0.0.1600.860" timestamp="1579243774342" />
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel" timestamp="1579243774341">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/0.0.1600.860@0.0.1600.860" timestamp="1579243774341" />
+    <state x="602" y="76" key="SettingsEditor" timestamp="1579240622433">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="602" y="76" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1579240622433" />
+    <state x="887" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1579239959935">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="887" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579239959935" />
+    <state x="996" y="169" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1579214000408">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="996" y="169" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1600.860@0.0.1600.860" timestamp="1579214000408" />
+  </component>
+</project>
