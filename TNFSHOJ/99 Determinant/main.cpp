@@ -5,16 +5,16 @@ using namespace std;
 
 int main()
 {
-    double a , b , c , d ;
+    long double a , b , c , d ;
     cin >> a >> b >> c >> d ;
-    int ans=((a*d)-(b*c) + eps) ;
-    if (ans!=0)
+//    int ans= ;
+    if (((a*d)-(b*c) + eps)!=0)
     {
         cout << "1" << endl ;
     }
-    else if (ans==0)
+    else
     {
-        cout << "0" << endl ;
+        cout << "0" << endl;
     }
     return 0;
 }
