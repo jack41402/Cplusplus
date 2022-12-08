@@ -1,71 +1,56 @@
 #include <iostream>
 #include <cstring>
+#include <vector>
+
+// https://stackoverflow.com/questions/6021274/finding-shortest-repeating-cycle-in-word
+// https://www.zhihu.com/question/21923021
 
 using namespace std;
 
-int getNext (int x , string *p)
+// 找最短重複子字串
+string getNext (string p)
 {
-    for (int i=x ; i<p->size() ; ++i)
+    vector <int> nxt ;
+    // next[0] 必然是 0
+    nxt.emplace_back (0) ;
+    // 所以從 next[1] 開始求
+    int x=1 , now=0 ;
+    while (x<p.size())
     {
-        if (p->substr(0, i)==p->substr(x - i + 1, x + 1)) return i;
-    }
-    return 0;
-}
-
-void search (string *s , string *p)
-{
-    // tar: 主串匹配位置 , pos: 模式串匹配位置
-    int tar=0 , pos=0 ;
-    while (tar < s->size())
-    {
-        // 若兩個字元相等，則 tar, pos 各進一步
-        if (s[tar]==p[pos]) tar++ , pos++ ;
-        // 匹配失敗且 pos!=0 則依據 next 陣列移動標尺
-        else if (pos) pos = next[pos-1] ;
-        // 匹配失敗且 pos==0，直接右移一位
-        else tar++ ;
-        // 匹配成功
-        if (pos==p->size())
+        // 如果 p[now]==p[x]，則向右擴展一位
+        if (p[now]==p[x])
         {
-            // 輸出主串的匹配起點
-            cout << tar-pos ;
-            // 移動標尺
-            pos = next[pos-1] ;
+            now++ ;
+            x++ ;
+            nxt.emplace_back (now) ;
+        }
+        // 不匹配時，因為已知 x 的後綴與 now 的前綴相符，故縮小 now，改成 next[now-1]
+        else if (now) now = nxt[now-1] ;
+        // now 已經是 0，無法再縮小，故 next[x]=0
+        else
+        {
+            nxt.emplace_back (0) ;
+            x++ ;
         }
     }
+    for (auto i : nxt) cout << i << ' ' ;
+    cout << endl ;
+    // 長度等於主字串長度減去 next 陣列的最後一位
+    int len=(p.size() - nxt[nxt.size()-1]) ;
+    // 若 len 不是主字串長度的因數，則回傳整個字串
+    if (p.size()%len!=0) return p;
+    // 否則回傳主字串從 0 到 len 的子字串
+    return p.substr (0 , len) ;
 }
 
 int main ()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    string str , temp , find ;
-    bool flag ;
+    string str ;
     while (cin>>str)
     {
-        find = "" ;
-        for (int i=1 ; i<=str.size() ; ++i)
-        {
-            find += str[i-1] ;
-            if (i>str.size()+1)
-            {
-                find = str ;
-                break ;
-            }
-            if (str.size()%i!=0) continue ;
-            flag = true ;
-            for (int j=i ; j<str.size() ; j+=i)
-            {
-                temp = str.substr (j , i) ;
-                if (temp!=find)
-                {
-                    flag = false ;
-                    break ;
-                }
-            }
-            if (flag) break ;
-        }
-        cout << find << '\n' ;
+        cout << getNext (str) << endl ;
     }
     return 0;
 }
