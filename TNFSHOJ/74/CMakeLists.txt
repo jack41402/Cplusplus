@@ -3,4 +3,6 @@ project(74)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(74 main.cpp)
+add_executable(74 main.cpp optimize.cpp)
+
+add_executable(optimize optimize.cpp)

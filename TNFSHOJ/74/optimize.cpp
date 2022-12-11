@@ -52,20 +52,28 @@ int main ()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int x , now , str_size , zero ;
+    int x , now , str_size , period ;
     string str ;
-    char first , temp ;
+    char first , current ;
     while (cin>>str)
     {
-        str_size = str.size() , x = 0 , zero = -1 , first = str[0] ;
+        // 令 x 在字串索引為 0 的位置，now 在字串索引為 1 的位置
+        str_size = str.size() , x = 0 , period = -1 , first = str[0] ;
+        // 遍歷字串
         for (now=1 ; now<str_size ; ++now)
         {
-            temp = str[now] ;
-            if (temp==str[x]) zero = now - x ,  ++x ;
-            else if (temp==first) x = 1 , zero = now ;
-            else zero = -1 , x = 0 ;
+            current = str[now] ;
+            // 檢查兩個字元是否相同，如果相同，取 period 為 now-x 並遞增 x
+            if (current==str[x]) period = now - x ,  ++x ;
+            // 如果字串的索引 now 與 x 的字元不相同，則與索引 0 的位置進行比較
+            // 若兩個字元相同，則設 period 為 now，並把 x 更新到索引 1 的位置
+            else if (current==first) x = 1 , period = now ;
+            // 若沒有匹配的字元，則設 period 為 -1，並更新 x 為 0
+            else period = -1 , x = 0 ;
         }
-        if (str_size%zero==0) cout << str.substr (0 , zero) << '\n' ;
+        // 如果 period 長度為字串長的因數，則從 0~period-1 的字串為最短循環子字串
+        if (str_size % period==0) cout << str.substr (0 , period) << '\n' ;
+        // 若不是因數，則輸出整個字串
         else cout << str << '\n' ;
         cout << flush ;
     }

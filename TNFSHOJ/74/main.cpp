@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring>
 #include <vector>
 
 // https://stackoverflow.com/questions/6021274/finding-shortest-repeating-cycle-in-word
@@ -7,8 +6,8 @@
 
 using namespace std;
 
-// 找最短重複子字串
-string getNext (string p)
+// 找最短重複子字串，以KMP預處理演算法解題
+string KMP (string p)
 {
     vector <int> nxt ;
     // next[0] 必然是 0
@@ -33,8 +32,6 @@ string getNext (string p)
             x++ ;
         }
     }
-    for (auto i : nxt) cout << i << ' ' ;
-    cout << endl ;
     // 長度等於主字串長度減去 next 陣列的最後一位
     int len=(p.size() - nxt[nxt.size()-1]) ;
     // 若 len 不是主字串長度的因數，則回傳整個字串
@@ -50,7 +47,7 @@ int main ()
     string str ;
     while (cin>>str)
     {
-        cout << getNext (str) << endl ;
+        cout << KMP (str) << endl ;
     }
     return 0;
 }
