@@ -1,81 +1,91 @@
 #include <iostream>
-#include <cstring>
-#include <vector>
-#include <functional>
+
+#pragma GCC optimize("Ofast,unroll-loops")
+#pragma GCC target("sse,sse2,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
+#pragma GCC optimize("inline")
+#pragma GCC optimize("-fgcse")
+#pragma GCC optimize("-fgcse-lm")
+#pragma GCC optimize("-fipa-sra")
+#pragma GCC optimize("-ftree-pre")
+#pragma GCC optimize("-ftree-vrp")
+#pragma GCC optimize("-fpeephole2")
+#pragma GCC optimize("-ffast-math")
+#pragma GCC optimize("-fsched-spec")
+#pragma GCC optimize("-falign-jumps")
+#pragma GCC optimize("-falign-loops")
+#pragma GCC optimize("-falign-labels")
+#pragma GCC optimize("-fdevirtualize")
+#pragma GCC optimize("-fcaller-saves")
+#pragma GCC optimize("-fcrossjumping")
+#pragma GCC optimize("-fthread-jumps")
+#pragma GCC optimize("-funroll-loops")
+#pragma GCC optimize("-fwhole-program")
+#pragma GCC optimize("-freorder-blocks")
+#pragma GCC optimize("-fschedule-insns")
+#pragma GCC optimize("inline-functions")
+#pragma GCC optimize("-ftree-tail-merge")
+#pragma GCC optimize("-fschedule-insns2")
+#pragma GCC optimize("-fstrict-aliasing")
+#pragma GCC optimize("-fstrict-overflow")
+#pragma GCC optimize("-falign-functions")
+#pragma GCC optimize("-fcse-skip-blocks")
+#pragma GCC optimize("-fcse-follow-jumps")
+#pragma GCC optimize("-fsched-interblock")
+#pragma GCC optimize("-fpartial-inlining")
+#pragma GCC optimize("no-stack-protector")
+#pragma GCC optimize("-freorder-functions")
+#pragma GCC optimize("-findirect-inlining")
+#pragma GCC optimize("-fhoist-adjacent-loads")
+#pragma GCC optimize("-frerun-cse-after-loop")
+#pragma GCC optimize("inline-small-functions")
+#pragma GCC optimize("-finline-small-functions")
+#pragma GCC optimize("-ftree-switch-conversion")
+#pragma GCC optimize("-foptimize-sibling-calls")
+#pragma GCC optimize("-fexpensive-optimizations")
+#pragma GCC optimize("-funsafe-loop-optimizations")
+#pragma GCC optimize("inline-functions-called-once")
+#pragma GCC optimize("-fdelete-null-pointer-checks")
 
 using namespace std;
 
-vector <int> nxt ;
-
-void getNext (string p)
-{
-    nxt.clear() ;
-    // next[0] 必然是 0
-    nxt.emplace_back (0) ;
-    // 所以從 next[1] 開始求
-    int x=1 , now=0 ;
-    while (x<p.size())
-    {
-        // 如果 p[now]==p[x]，則向右擴展一位
-        if (p[now]==p[x])
-        {
-            now++ ;
-            x++ ;
-            nxt.emplace_back (now) ;
-        }
-        // 不匹配時，因為以知 x 的後綴與 now 的前綴相符，故縮小 now，改成 next[now-1]
-        else if (now) now = nxt[now-1] ;
-        // now 已經是 0，無法再縮小，故 next[x]=0
-        else
-        {
-            nxt.emplace_back (0) ;
-            x++ ;
-        }
-    }
-}
-
-void search (string s , string p)
-{
-    // tar: 主串匹配位置 , pos: 模式串匹配位置
-    int tar=0 , pos=0 ;
-    while (tar < s.size())
-    {
-        // 若兩個字元相等，則 tar, pos 各進一步
-        if (s[tar]==p[pos]) tar++ , pos++ ;
-        // 匹配失敗且 pos!=0 則依據 next 陣列移動標尺
-        else if (pos) pos = nxt[pos-1] ;
-        // 匹配失敗且 pos==0，直接右移一位
-        else tar++ ;
-        // 匹配成功
-        if (pos==p.size())
-        {
-            // 輸出主串的匹配起點
-            cout << "y\n" ;
-            return ;
-            // 移動標尺
-            pos = nxt[pos-1] ;
-        }
-    }
-    cout << "n\n" ;
-}
-
-int main ()
+int main()
 {
     ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    cin.tie(0);
     int t , n ;
-    string str , temp , find ;
+    string str , keyword ;
     cin >> t ;
-    for (int i=0 ; i<t ; ++i)
+    while (t--)
     {
         cin >> str >> n ;
-        for (int j=0 ; j<n ; ++j)
+        while (n--)
         {
-            cin >> find ;
-            (str.find(find)!=string::npos) ? cout << "y\n" : cout << "n\n" ;
-//            getNext (find) ;
-//            search (str , find) ;
-            cout << flush ;
+            cin >> keyword ;
+            bool flag=false;
+            int shift=0 , str_size=str.size() , keyword_size=keyword.size() ;
+            int badchar[130]={0} ;
+            // 建構壞字符表
+            for (int i=0 ; i<keyword_size ; ++i) badchar[(int) keyword[i]] = i ;
+            // 當關鍵字的位移量不大於主字串長度時執行
+            while (shift<=(str_size-keyword_size))
+            {
+                int index=keyword_size-1 ;
+                // 當後綴字元匹配時，減少 index 的值
+                while (index>=0 && keyword[index]==str[index+shift]) index-- ;
+                // 匹配時，即當 index 值小於 0 時
+                if (index<0)
+                {
+                    cout << "y\n" ;
+                    flag = true ;
+                    break ;
+                }
+                // 不匹配時，增加位移量
+                // 使壞字符與其在關鍵字中最後一次出現的位置對齊
+                // max 函數用於保證正位移
+                // 若關鍵字中最後一次出現的壞字符在右側，則可能得到負位移
+                shift += max (1 , index-badchar[str[shift+index]]) ;
+            }
+            if (!flag) cout << "n\n" ;
         }
     }
     return 0;
