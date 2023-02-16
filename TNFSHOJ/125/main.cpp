@@ -5,23 +5,27 @@ using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(0);
+    ios::sync_with_stdio(false);
     cin.tie(0);
-    int N , P , C , i , j , t ;
+    int N , P , C , i , j , inp ;
     cin >> N >> P >> C ;
-    vector<int> tree(P , 0) ;
-    for (i=1 ; i<=N ; ++i)
+    vector<int> tree(P, 0) ;
+    for (i=0 ; i<N ; ++i)
     {
         for (j=0 ; j<P ; ++j)
         {
-            cin >> t ;
-            tree[j] += t ;
+            cin >> inp ;
+            tree[j] += inp ;
         }
     }
-    for (i=1 , t=tree[0] ; i<P ; ++i)
-    {
-        t = t ^ tree[i] ;
-    }
-    cout << ((t==0) ? ((C==0) ? "Ivy Win!" : "Holly Win!") : ((C==0) ? "Holly Win!" : "Ivy Win!")) << endl ;
+    int nim_sum=tree[0] ;
+    for (auto it=tree.begin()+1 ; it!=tree.end() ; ++it)
+        nim_sum = nim_sum ^ (*it) ;
+
+    if (nim_sum == 0)
+        cout << ((C == 0) ? "Ivy Win!" : "Holly Win!") << "\n";
+    else
+        cout << ((C == 0) ? "Holly Win!" : "Ivy Win!") << "\n";
+
     return 0;
 }

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8e1916f-2f80-465c-9384-d9ba6531fd74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../123/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../123/.idea/123.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../123/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../123/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../123/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../123/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../125/.idea/125.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../125/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../125/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../125/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../125/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../125/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../239/.idea/239.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../239/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../239/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../239/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../239/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../239/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../252/.idea/252.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../252/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../252/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../252/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../252/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../252/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/.idea/26.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../369/.idea/369.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../369/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../369/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../369/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../369/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../369/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../55/.idea/55.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../55/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../55/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../55/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../55/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../55/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A - Above Average/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A - Above Average/.idea/A - Above Average.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A - Above Average/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A - Above Average/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A - Above Average/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A - Above Average/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A - Above Average/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B - Cows and Cars/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B - Cows and Cars/.idea/B - Cows and Cars.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B - Cows and Cars/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B - Cows and Cars/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B - Cows and Cars/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B - Cows and Cars/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B - Cows and Cars/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B. Collecting Packages/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B. Collecting Packages/.idea/B. Collecting Packages.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B. Collecting Packages/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B. Collecting Packages/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B. Collecting Packages/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B. Collecting Packages/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B. Collecting Packages/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeForce/Codeforces Round #615 (Div. 3)/B. Collecting Packages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodeForce/Codeforces Round #615 (Div. 3)/B. Collecting Packages/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1/1 ver.normal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1/1.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1/1.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1/1.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1/bin/Debug/1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1easy/1 ver.easy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1easy/1easy.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1easy/main.cpp.save" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1easy/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1easy/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1hard/1 ver.hard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1hard/1.cpp.save" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1hard/1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/1hard/1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/2/2 ver.1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/2easy/2 ver.2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/2easy/2easy.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/2easy/2easy.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/2easy/2easy.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/2easy/bin/Debug/2easy.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/2easy/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/3/3 ver.1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/3easy/3 ver.2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/3easy/3easy.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/3easy/3easy.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/3easy/bin/Debug/3easy.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/3easy/main.cpp.save" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/3easy/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/subject 2/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/subject 2/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/subject 2/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/subject 2/subject 2.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/subject/bin/Debug/subject.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/subject/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/subject/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/subject/subject.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../School/subject/subject.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TNFSHOJ/125/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TNFSHOJ/125/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TNFSHOJ/125/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TNFSHOJ/125/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1WeMcNBc9oauPXvhIcuFDwimLcy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="b966" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8e1916f-2f80-465c-9384-d9ba6531fd74" name="Default Changelist" comment="" />
+      <created>1579505685526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579505685526</updated>
+      <workItem from="1579505686961" duration="7057000" />
+      <workItem from="1579588740432" duration="42000" />
+      <workItem from="1676258539614" duration="475000" />
+      <workItem from="1676259030125" duration="535000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="125" targetName="125" />
     </generated>
   </component>
-  <component name="CMakeSettings" AUTO_RELOAD="true">
+  <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5808925f-4b78-462f-a8d5-6d736d2dd939" name="Default Changelist" comment="" />
+    <list default="true" id="385cbbed-ea5d-4e36-8ec0-946bbaef2591" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../123/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../123/.idea/123.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../123/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../123/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../123/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../123/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/.idea/26.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../55/.idea/55.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../55/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../55/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../55/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../55/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../55/main.cpp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,25 +47,27 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectId" id="1Xw38ltMwVC2UvgRWQDipW74X4E" />
+  <component name="ProjectId" id="1WyBSpvj0BnAzeQD650ulhj35Te" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager">
-    <configuration name="125" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="125" TARGET_NAME="125" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="125" RUN_TARGET_NAME="125">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="125" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="125" TARGET_NAME="125" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="125" RUN_TARGET_NAME="125">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -57,55 +85,34 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5808925f-4b78-462f-a8d5-6d736d2dd939" name="Default Changelist" comment="" />
-      <created>1581943172793</created>
+      <changelist id="385cbbed-ea5d-4e36-8ec0-946bbaef2591" name="Default Changelist" comment="" />
+      <created>1580111956860</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581943172793</updated>
-      <workItem from="1581943174760" duration="3415000" />
+      <updated>1580111956860</updated>
+      <workItem from="1580111963523" duration="2257000" />
+      <workItem from="1580178964913" duration="52000" />
+      <workItem from="1676257143175" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="980" y="189" key="FileChooserDialogImpl" timestamp="1582000920998">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="932" y="168" key="FileChooserDialogImpl" timestamp="1580179016291">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="980" y="189" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1582000920998" />
-    <state width="754" height="222" key="GridCell.Tab.0.bottom" timestamp="1582000926159">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="932" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580179016291" />
+    <state x="841" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1580178998319">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="754" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582000926159" />
-    <state width="754" height="222" key="GridCell.Tab.0.center" timestamp="1582000926159">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="754" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1582000926159" />
-    <state width="754" height="222" key="GridCell.Tab.0.left" timestamp="1582000926158">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="754" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1582000926158" />
-    <state width="754" height="222" key="GridCell.Tab.0.right" timestamp="1582000926159">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="754" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1582000926159" />
-    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1582000925984">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel/0.0.1600.860@0.0.1600.860" timestamp="1582000925984" />
-    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel" timestamp="1582000925983">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/0.0.1600.860@0.0.1600.860" timestamp="1582000925983" />
-    <state x="578" y="97" key="SettingsEditor" timestamp="1581943813132">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="578" y="97" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1581943813132" />
+    <state x="841" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580178998319" />
   </component>
 </project>
