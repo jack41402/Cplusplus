@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="848e7cd3-941a-4785-ba12-0208ef7bc600" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Codeforces Round 614 (Div. 2)/A/.idea/A.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codeforces Round 614 (Div. 2)/B/.idea/B.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codeforces Round 615 (Div. 3)/A. Collecting Coins/.idea/A. Collecting Coins.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codeforces Round 615 (Div. 3)/B. Collecting Packages/.idea/B. Collecting Packages.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/G. Special Permutation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codeforces Round 691 (Div. 1)/A. Row GCD/.idea/A. Row GCD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ZeroJudge/h082/.idea/h082.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ZeroJudge/i400/.idea/i400.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #600 (Div. 2)/A/A.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #600 (Div. 2)/A/A.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #600 (Div. 2)/A/A.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #600 (Div. 2)/A/bin/Debug/A.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #600 (Div. 2)/A/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #600 (Div. 2)/A/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #600 (Div. 2)/A/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #600 (Div. 2)/A/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #601 (Div. 2)/A/A.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #601 (Div. 2)/A/A.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #601 (Div. 2)/A/A.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #601 (Div. 2)/A/bin/Debug/A.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #601 (Div. 2)/A/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #601 (Div. 2)/A/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #614 (Div. 2)/A/.idea/A.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #614 (Div. 2)/A/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #614 (Div. 2)/A/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #614 (Div. 2)/A/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #614 (Div. 2)/A/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #614 (Div. 2)/A/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #614 (Div. 2)/B/.idea/B.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #614 (Div. 2)/B/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #614 (Div. 2)/B/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #614 (Div. 2)/B/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #614 (Div. 2)/B/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #614 (Div. 2)/B/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/A. Collecting Coins/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/A. Collecting Coins/.idea/A. Collecting Coins.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/A. Collecting Coins/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/A. Collecting Coins/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/A. Collecting Coins/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/A. Collecting Coins/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/A. Collecting Coins/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/B. Collecting Packages/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/B. Collecting Packages/.idea/B. Collecting Packages.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/B. Collecting Packages/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/B. Collecting Packages/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/B. Collecting Packages/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/B. Collecting Packages/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/B. Collecting Packages/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #615 (Div. 3)/B. Collecting Packages/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #691 (Div. 1)/A. Row GCD/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #691 (Div. 1)/A. Row GCD/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #691 (Div. 1)/A. Row GCD/.idea/A. Row GCD.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #691 (Div. 1)/A. Row GCD/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #691 (Div. 1)/A. Row GCD/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #691 (Div. 1)/A. Row GCD/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codeforces Round #691 (Div. 1)/A. Row GCD/main.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2McwOXRBUzvcEaBOPIpLCtWGnoA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="G. Special Permutation" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="848e7cd3-941a-4785-ba12-0208ef7bc600" name="Changes" comment="" />
+      <created>1678080147976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678080147976</updated>
+      <workItem from="1678080149508" duration="1621000" />
+      <workItem from="1678083068024" duration="416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
