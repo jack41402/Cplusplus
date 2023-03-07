@@ -85,7 +85,7 @@ int main ()
     sum_lower += arr[0] ;
     for (int i=1 ; i<k ; ++i) insert(arr[i]) ;
     cout << sum_upper - sum_lower + median() ;
-
+    if (n!=1) cout << ' ' ;
     for (int i=k ; i<n ; ++i)
     {
         if (k==1)
