@@ -12,7 +12,7 @@ void insert (long long int num)
     temp = *lower.rbegin() ;
     if (temp<num)
     {
-        upper.emplace(temp) ;
+        upper.emplace(num) ;
         if (upper.size()>k/2)
         {
             temp = *upper.begin() ;
