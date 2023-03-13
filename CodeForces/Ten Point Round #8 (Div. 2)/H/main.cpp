@@ -1,25 +1,41 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-bool check[2][15] ;
+long long int num[10005] ;
+
+set<int> s ;
+map<long long int , long long int> mp ;
 
 int main()
 {
-    bool c=0 ;
-    string a , b ;
-    cin >> a >> b ;
-    for (int i=0 ; i<a.size() ; ++i) check [0][int(a[i])-48] = 1 ;
-    for (int i=0 ; i<b.size() ; ++i) check [1][int(b[i])-48] = 1 ;
-    for (int i=0 ; i<10 ; ++i)
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    int n , m ;
+    cin >> n ;
+    while (n--)
     {
-        if (check[0][i]==1 && check[1][i]==1)
+        int rk=1 ;
+        cin >> m ;
+        for (int i=0 ; i<m ; ++i)
         {
-            cout << "Yes\n" ;
-            c = 1 ;
-            break ;
+            cin >> num[i] ;
+            s.insert(num[i]) ;
         }
+        for (auto i : s)
+        {
+            mp[i] = rk ;
+            rk++ ;
+        }
+        for (int i=0 ; i<m ; ++i)
+        {
+            cout << mp[num[i]] << ' ' ;
+        }
+        cout << '\n' ;
+        s.clear();
+        mp.clear();
+        memset(num , 0 , m);
     }
-    if (c==0) cout << "No\n" ;
     return 0;
 }
