@@ -1,8 +1,9 @@
 #include <iostream>
+#include <algorithm>
+#include <vector>
 
 using namespace std;
 
-long long int arr[100005] ;
 
 int main ()
 {
@@ -13,13 +14,16 @@ int main ()
     while (t--)
     {
         cin >> n ;
+        vector<pair<long long int , long long int>> arr(n) ;
         ans = 0 ;
-        for (int i=0 ; i<n ; ++i) cin >> arr[i] ;
+        for (int i=0 ; i<n ; ++i) cin >> arr[i].first , arr[i].second = i + 1 ;
+        sort(arr.begin() , arr.end()) ;
         for (int i=0 ; i<n ; ++i)
         {
             for (int j=i+1 ; j<n ; ++j)
             {
-                if (arr[i]*arr[j]==(i+1)+(j+1)) ans++ ;
+                if (arr[i].first*arr[j].first>n+(n-1)) break ;
+                if (arr[i].first*arr[j].first==arr[i].second+arr[j].second) ans++ ;
             }
         }
         cout << ans << '\n' ;
