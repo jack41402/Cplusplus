@@ -1,50 +1,68 @@
 #include <iostream>
+#include <algorithm>
 #include <numeric>
 #include <vector>
 #include <queue>
 
 using namespace std;
 
-long long int n , m , t , water , ans=1e9  , temp , sum=0 , cnt ;
-vector<long long int> pour ;
-queue<pair<long long int , long long int>> q ;
+int n , m , t , ans=1e9  , temp ;
+vector<int> pour , water ;
+queue<pair<vector<int> , int>> q ;
 
 void bfs ()
 {
     while (!q.empty())
     {
-        water = q.front().first ;
+        water.clear() ;
+        for (auto i : q.front().first) water.emplace_back(i) ;
         ans = q.front().second ;
         q.pop() ;
-        if ((water<<t)&1) break ;
-        for (int i=0 ; i<2*n ; ++i)
+        if (find(water.begin() , water.end() , t)!=water.end()) break ;
+        for (int i=0 ; i<n ; ++i)
         {
-            if (water+pour[i]<=0 || water+pour[i]>sum) continue ;
-            // 倒入水
-            if (pour[i]>0 && ((water<<pour[i])&1)==0)
+            // 把燒杯裝滿水
+            if (water[i]<pour[i])
             {
-                q.emplace(water|(1<<pour[i]) , ans+1) ;
+                temp = water[i] ;
+                water[i] = pour[i] ;
+                q.emplace(water , ans+1) ;
+                water[i] = temp ;
             }
             // 把水倒掉
-            if (pour[i]<0 && (water<<(-pour[i]))&1)
+            if (water[i]!=0)
             {
-                q.emplace(water&(~(1<<(-pour[i]))) , ans+1) ;
-            }
-            cnt = 1 , temp = water ;
-            // 把水倒入別的杯子
-            while (water)
-            {
-                if (cnt+pour[i]>sum) break ;
-                if ((water>>cnt)&1 && cnt+pour[i]>0)
+                temp = water[i] ;
+                water[i] = 0 ;
+                q.emplace(water , ans+1) ;
+                water[i] = temp ;
+                for (int j=0 ; j<n ; ++j)
                 {
-                    // 把水倒掉，將位元轉成 0
-                    water &= ~(1<<cnt) ;
-                    // 把水倒入別的杯子，將位元轉成 1
-                    water |= 1<<(cnt+pour[i]) ;
-                    q.emplace(water , ans+1) ;
-                    break ;
+                    if (j==i) continue ;
+                    if (water[j]!=pour[j])
+                    {
+                        // 要倒入水的燒杯容量比現有的水量大，把水全倒到燒杯
+                        if (pour[j] - water[j]>water[i])
+                        {
+                            temp = water[i] ;
+                            water[j] += water[i] ;
+                            water[i] = 0 ;
+                            q.emplace(water , ans+1) ;
+                            water[i] = temp ;
+                            water[j] -= water[i] ;
+                        }
+                        // 要倒入水的燒杯容量比現有的水量小，將燒杯倒滿
+                        else
+                        {
+                            temp = water[j] ;
+                            water[i] -=pour[j] - water[j] ;
+                            water[j] = pour[j] ;
+                            q.emplace(water , ans+1) ;
+                            water[j] = temp ;
+                            water[i] +=pour[j] - water[j] ;
+                        }
+                    }
                 }
-                cnt++ ;
             }
         }
     }
@@ -60,8 +78,6 @@ int main ()
     {
         cin >> m ;
         pour.emplace_back(m) ;
-        q.emplace(1<<m , 1) ;
-        sum += m ;
     }
     cin >> t ;
     temp = pour[0] ;
@@ -79,15 +95,15 @@ int main ()
         cout << -1 << '\n' ;
         return 0;
     }
-    for (int i=0 ; i<n ; ++i)
-    {
-        pour.emplace_back(-pour[i]) ;
-    }
+    vector<int> arr(n) ;
+    q.emplace(arr , 0) ;
     bfs() ;
     while (!q.empty())
     {
-        cout << q.front().first << ' ' << q.front().second << endl ;
-        if (q.front().first==t) ans = min(ans , q.front().second) ;
+        if (find(q.front().first.begin() , q.front().first.end() , t)!=q.front().first.end())
+        {
+            ans = min(ans , q.front().second) ;
+        }
         q.pop() ;
     }
     cout << ans << '\n' ;
