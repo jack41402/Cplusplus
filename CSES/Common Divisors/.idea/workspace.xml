@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Common_Divisors_" targetName="Common_Divisors_" />
+      <config projectName="Common_Divisors_" targetName="enumeration" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39310ef7-51b4-4bc0-8802-c817d1290add" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AtCoder/AtCoder Beginner Contest 196/D - Hanjo/.idea/D - Hanjo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Common Divisors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enumeration.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodeForces/Educational Codeforces Round 108 (Rated for Div. 2)/D/.idea/D.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodeForces/Educational Codeforces Round 108 (Rated for Div. 2)/D/dp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodeForces/Educational Codeforces Round 108 (Rated for Div. 2)/D/dp2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TEST/TEST/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TEST/TEST/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../TEST/TEST/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIOJ/1008/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../TIOJ/1008/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NZ1kaw81j112PSnrsXeYMyn7Kt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/GitHub/Cplusplus/CSES/Common Divisors/CMakeLists.txt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake Application.enumeration">
+    <configuration name="Common_Divisors_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Common_Divisors_" TARGET_NAME="Common_Divisors_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Common_Divisors_" RUN_TARGET_NAME="Common_Divisors_">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="enumeration" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Common_Divisors_" TARGET_NAME="enumeration" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Common_Divisors_" RUN_TARGET_NAME="enumeration">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Common_Divisors_" />
+      <item itemvalue="CMake Application.enumeration" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39310ef7-51b4-4bc0-8802-c817d1290add" name="Changes" comment="" />
+      <created>1679856933890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679856933890</updated>
+      <workItem from="1679856934921" duration="103000" />
+      <workItem from="1679857587800" duration="1520000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
