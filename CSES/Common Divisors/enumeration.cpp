@@ -4,7 +4,6 @@
 using namespace std;
 
 int arr[200005] ;
-bool prime[200005] ;
 
 int main()
 {

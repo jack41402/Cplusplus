@@ -22,15 +22,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39310ef7-51b4-4bc0-8802-c817d1290add" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../AtCoder/AtCoder Beginner Contest 196/D - Hanjo/.idea/D - Hanjo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Common Divisors.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enumeration.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CodeForces/Educational Codeforces Round 108 (Rated for Div. 2)/D/.idea/D.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CodeForces/Educational Codeforces Round 108 (Rated for Div. 2)/D/dp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CodeForces/Educational Codeforces Round 108 (Rated for Div. 2)/D/dp2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TEST/TEST/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TEST/TEST/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../TEST/TEST/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TIOJ/1008/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../TIOJ/1008/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enumeration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enumeration.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +51,17 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/GitHub/Cplusplus/CSES/Common Divisors/CMakeLists.txt",
+    "last_opened_file_path": "D:/GitHub/FCU/111-2/ADVANCED C PROGRAMMING/Assignment 3 Polynomial Operations/assgn3_d1166506",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "discord-project",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="CMake Application.enumeration">
     <configuration name="Common_Divisors_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Common_Divisors_" TARGET_NAME="Common_Divisors_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Common_Divisors_" RUN_TARGET_NAME="Common_Divisors_">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -96,6 +86,7 @@
       <updated>1679856933890</updated>
       <workItem from="1679856934921" duration="103000" />
       <workItem from="1679857587800" duration="1520000" />
+      <workItem from="1679916672396" duration="849000" />
     </task>
     <servers />
   </component>
