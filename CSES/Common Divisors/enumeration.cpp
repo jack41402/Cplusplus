@@ -15,7 +15,7 @@ int main()
     for (int i=0 ; i<n ; ++i)
     {
         cin >> temp ;
-        if (temp==1 || exist[temp]>=2) continue ;
+        if (exist[temp]>=2) continue ;
         exist[temp]++ ;
         for (int j=1 ; j*j<=temp ; ++j)
         {
