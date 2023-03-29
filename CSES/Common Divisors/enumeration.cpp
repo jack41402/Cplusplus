@@ -4,35 +4,34 @@
 
 using namespace std;
 
-int arr[200005] ;
+int arr[200005] , exist[1000005] , divisor[1000005] ;
 
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int n , ans=0 , cnt=0 , temp , MAX=-1 ;
-    bool flag=false ;
+    int n , temp ;
     cin >> n ;
     for (int i=0 ; i<n ; ++i)
     {
         cin >> temp ;
-        if (temp==1) continue ;
-        arr[cnt++] = temp ;
-        MAX = max(MAX , temp) ;
-    }
-    sort(arr , arr+cnt) ;
-    for (int i=MAX ; i>=0 ; --i)
-    {
-        temp = 0 ;
-        for (int j=cnt-1 ; j>=0 ; --j)
+        if (temp==1 || exist[temp]>=2) continue ;
+        exist[temp]++ ;
+        for (int j=1 ; j*j<=temp ; ++j)
         {
-            if (arr[j]<i) break ;
-            if (arr[j]%i==0) temp++ ;
-            if (temp==2)
+            if (temp%j==0)
             {
-                cout << i << '\n' ;
-                return 0;
+                divisor[j]++ ;
+                if (j!=temp/j) divisor[temp/j]++ ;
             }
+        }
+    }
+    for (int i=1000005 ; i>=1 ; --i)
+    {
+        if (divisor[i]>=2)
+        {
+            cout << i << '\n' ;
+            break ;
         }
     }
     return 0;

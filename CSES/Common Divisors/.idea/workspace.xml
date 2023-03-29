@@ -22,6 +22,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39310ef7-51b4-4bc0-8802-c817d1290add" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/enumeration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enumeration.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/GitHub/Cplusplus/CSES/Common Divisors",
+    "last_opened_file_path": "D:/GitHub/Cplusplus/CodeForces/Educational Ten Point Round #1 Sorting and Searching I (Div. 2)/I",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,11 +60,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="CMake Application.enumeration">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Common_Divisors_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Common_Divisors_" TARGET_NAME="Common_Divisors_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Common_Divisors_" RUN_TARGET_NAME="Common_Divisors_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
