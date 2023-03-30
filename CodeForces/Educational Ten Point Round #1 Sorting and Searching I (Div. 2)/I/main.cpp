@@ -24,25 +24,29 @@ int main ()
             if (j<=temp) b.emplace_back(temp-j , i) ;
         }
     }
-    // index=0 可以視為最小值，index=b.size()-1 可以視為最大值
+    // 對延長度進行排序
     sort(b.begin() , b.end()) ;
-    l=0 , r=0 ;
+    l = 0 , r = 0 ;
+    // 去掉重複的 index
     set<long long int> s ;
+    // 紀錄 index 出現的次數
     vector<long long int> c(n) ;
     c[b[0].second]++ ;
     s.emplace(b[0].second) ;
     while (l<b.size())
     {
-        // r<b.size() can be ignored
+        // r<b.size() can be ignored since once r==b.size() the loop will break.
         while (s.size()<n && r<b.size())
         {
             r++ ;
             if (r==b.size()) break ;
+            // 紀錄 index 的數量
             c[b[r].second]++ ;
             s.emplace(b[r].second) ;
         }
         if (s.size()==n)
         {
+            // 延長度的差值即為兩個指針指向的值相減 r - l
             long long int diff=b[r].first - b[l].first ;
             ans = min(ans , diff) ;
             if (c[b[l].second]==1)
