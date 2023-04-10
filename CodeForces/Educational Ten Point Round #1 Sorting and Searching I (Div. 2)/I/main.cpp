@@ -12,7 +12,7 @@ int main ()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     long long int n , temp , ans=1e18 , l , r ;
-    for (int &i : a) cin>>i ;
+    for (int &i : a) cin >> i ;
     cin >> n ;
     vector<pair<long long int , long long int>> b ;
     for (int i=0 ; i<n ; ++i)
@@ -36,18 +36,20 @@ int main ()
     while (l<b.size())
     {
         // r<b.size() can be ignored since once r==b.size() the loop will break.
-        while (s.size()<n && r<b.size())
+        while (s.size()<n)
         {
             r++ ;
             if (r==b.size()) break ;
             // 紀錄 index 的數量
             c[b[r].second]++ ;
             s.emplace(b[r].second) ;
+//            cout << "Emplace " << b[r].first << ' ' << b[r].second << '\n' ;
         }
         if (s.size()==n)
         {
             // 延長度的差值即為兩個指針指向的值相減 r - l
             long long int diff=b[r].first - b[l].first ;
+//            cout << "R=" << b[r].first << " L=" << b[l].first << '\n' ;
             ans = min(ans , diff) ;
             if (c[b[l].second]==1)
             {
@@ -58,6 +60,7 @@ int main ()
         }
         else break ;
     }
+    cout << flush ;
     cout << ans << '\n' ;
     return 0;
 }
