@@ -2,25 +2,29 @@
 
 using namespace std;
 
-int arr[100005] ;
+int crystal[5]={0} ;
 
 int main ()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    int n , k ;
-    long long int sum=0 ;
-    cin >> n >> k ;
-    for (int i=0 ; i<n ; ++i)
+    ios::sync_with_stdio (false);
+    cin.tie (nullptr);
+    long long int x , y , z , n , k , a , b;
+    cin>>x>>y>>z;
+    cin>>n;
+    while (n--)
     {
-        cin >> arr[i] ;
-        sum += arr[i] ;
+        cin>>k>>a>>b;
+        if (k==1 && a<b) crystal[1]++;
+        if (k==2 && a==b) crystal[2]++;
+        if (k==3 && a>b) crystal[3]++;
     }
-    sum *= k/n ;
-    for (int i=0 ; i<k%n ; ++i)
+    if (crystal[1]>=x && crystal[2]>=y && crystal[3]>=z)
     {
-        sum += arr[i] ;
+        cout << "enough\n" ;
     }
-    cout << sum << '\n' ;
+    else
+    {
+        cout << "not enough\n" ;
+    }
     return 0;
 }

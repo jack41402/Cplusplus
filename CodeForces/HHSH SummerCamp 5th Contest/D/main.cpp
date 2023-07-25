@@ -8,5 +8,6 @@ int main ()
     cin.tie(nullptr);
     string str ;
     cin >> str ;
-    cout << "Hello, " << str << '\n' ;
+    cout << str << '\n' ;
+    return 0;
 }
