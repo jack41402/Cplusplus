@@ -30,19 +30,27 @@ int main ()
             x = locate/m ;
             y = locate%m-1 ;
         }
-        if (command=="get" && tray[x][y]=='#')
+        if (command=="get")
         {
-            get = true ;
-            tray[x-1][y-1] = '-' , tray[x-1][y] = '-' , tray[x-1][y+1] = '-' ,
-            tray[x][y-1] = '-' , tray[x][y] = '-' , tray[x][y+1] = '-' ,
-            tray[x+1][y-1] = '-' , tray[x+1][y] = '-' , tray[x+1][y+1] = '-' ;
+            if (tray[x][y]=='#')
+            {
+                get = true;
+                tray[x - 1][y - 1] = '-', tray[x - 1][y] = '-', tray[x - 1][y + 1] = '-',
+                tray[x][y - 1] = '-', tray[x][y] = '-', tray[x][y + 1] = '-',
+                tray[x + 1][y - 1] = '-', tray[x + 1][y] = '-', tray[x + 1][y + 1] = '-';
+            }
+            else get = false ;
         }
         if (command=="put")
         {
             if (!get) cout << "put nothing\n" ;
+            else if (x-1<0 || y-1<0 || x+1>=n || y+1>=m)
+            {
+                cout << "collision\n" ;
+            }
             else if (tray[x-1][y-1]!='-' || tray[x-1][y]!='-' || tray[x-1][y+1]!='-' || tray[x][y-1]!='-' || tray[x][y]!='-' || tray[x][y+1]!='-' || tray[x+1][y-1]!='-' || tray[x+1][y]!='-' || tray[x+1][y+1]!='-')
             {
-                cout << "collision\n" ;      
+                cout << "collision\n" ;
             }
             else
             {
